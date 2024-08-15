@@ -6,10 +6,9 @@
 ## Оглавление  
 [1. Описание проекта](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#этапы-работы-над-проектом)  
-[5. Результаты](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#результаты)  
-[6. Выводы](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#выводы)  
+[3. Краткая информация о данных](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#краткая-информация-о-данных)   
+[4. Результаты](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#результаты)  
+[5. Выводы](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#выводы)  
   
 ### Описание проекта  
 Интернет магазину необходимо сегментировать наработанную клиентскую базу, чтобы эффективнее таргетировать маркетинговые компании.
@@ -49,31 +48,41 @@
   
 :arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
 
-### Краткая информация о данных  
-....  
+### Краткая информация о данных
+Каждая строка данных представляет собой строку из проведенного документа "Реализация" из программы 1С:ЕРП
+
+- date [DATETIME] - дата и время проведения реализации,
+- sale_id [TEXT] - ид реализации,
+- order_date [DATETIME] - дата и время заказа,
+- order_id [TEXT] - ид заказа,
+- buyer [TEXT] - имя (название организации) покупателя, 
+- contractor [TEXT] - название юридического лица покупателя,
+- site_id [TEXT] - ид товара на сайте,
+- product [TEXT] - название номенклатуры,
+- feature [TEXT] - характеристика номенклатуры (цвет - размер),
+- quantity [INTEGER] - колличество,
+- sum [FLOAT] - сумма,
+- address [TEXT] - адрес доставки,
+- cash_flow_type [TEXT] - тип движения средств (продажа / возврат)
   
 :arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
-  
-  
-### Этапы работы над проектом  
-1. [game.py](https://github.com/SergeyObukhov/sf_data_science/blob/main/projekt_0/game.py) - Написали программу, в которой пользователю при помощи диалога предлагается отгадать число, загаданное компьютером.
-2. [game_v2.py](https://github.com/SergeyObukhov/sf_data_science/blob/main/projekt_0/game_v2.py) - Добавили две функции. Одна случайным образом угадывает число. А вторая вычисляет среднее колличество попыток, за которое первая функция угадывает загаданное число.  
-3. [game_v3.py](https://github.com/SergeyObukhov/sf_data_science/blob/main/projekt_0/game_v3.py) - Написал алгоритм, который учитывает, больше ли случайное число или меньше нужного нам числа. Функция сокращает диапазон значений, уменьшая его вдвое на каждой итерации цикла. 
-  
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
-  
+   
   
 ### Результаты  
-- Мой алгоритм угадывает число в среднем за 5 попыток.
-- Я попрактиковался в написании хорошего кода на Python.  
-- Я отработал приемы использования IDE.
-- Оформил свой первый проект на GitHub.
+- Приложение проводит аналитику ночью по результатам торгового дня.
+- Обращение к информационной среде 1С производится ночью, в момент наименьшей нагрузки, с учетом регламентных процессов..  
+- Собираются логи для анализа производительности, отказоустойчивости.
+- Разработку вел оффлайн, и в последствии оформил на GitHub.
   
 :arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
   
   
 ### Выводы  
-Я справился с поставленной задачей: написать функцию, которая будет угадывать число меньше чем за 20 попыток.  
-Я благодарен автору модуля и всему проекту SF за переданные мне навыки.
+Я справился с поставленной задачей: создать сервис сегментации клиентов.
+
+Есть потенциал для расширения функционала сервиса:
+- варианты отчетов и визуализации,
+- отслеживание динамики перемещения клиентов из категории в категорию,
+- формирование списков, и дальнейшая рассылка закрепленным менеджерам или маркетологам
   
 :arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)
