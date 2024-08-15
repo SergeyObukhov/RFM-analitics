@@ -5,17 +5,17 @@
 
 ## Оглавление  
 [1. Описание проекта](https://github.com/SergeyObukhov/RFM-analitics#описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#краткая-информация-о-данных)   
-[4. Результаты](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#результаты)  
-[5. Выводы](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#выводы)  
+[2. Какой кейс решаем?](https://github.com/SergeyObukhov/RFM-analitics#какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/SergeyObukhov/RFM-analitics#краткая-информация-о-данных)   
+[4. Результаты](https://github.com/SergeyObukhov/RFM-analitics#результаты)  
+[5. Выводы](https://github.com/SergeyObukhov/RFM-analitics#выводы)  
   
 ### Описание проекта  
 Интернет магазину необходимо сегментировать наработанную клиентскую базу, чтобы эффективнее таргетировать маркетинговые компании.
 
 В этом проекте мы реализуем модель классификации клиентов на основе их покупательской способности, частоты заказов и срока давности последней покупки. 
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
   
   
 ### Какой кейс решаем?  
@@ -46,7 +46,7 @@
 - matplotlib
 - seaborn
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
 
 ### Краткая информация о данных
 Каждая строка данных представляет собой строку из проведенного документа "Реализация" из программы 1С:ЕРП
@@ -65,7 +65,7 @@
 - address [TEXT] - адрес доставки,
 - cash_flow_type [TEXT] - тип движения средств (продажа / возврат)
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
    
   
 ### Результаты  
@@ -74,7 +74,7 @@
 - Собираются логи для анализа производительности, отказоустойчивости.
 - Разработку вел оффлайн, и в последствии оформил на GitHub.
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
   
   
 ### Выводы  
@@ -85,4 +85,4 @@
 - отслеживание динамики перемещения клиентов из категории в категорию,
 - формирование списков, и дальнейшая рассылка закрепленным менеджерам или маркетологам
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#оглавление)
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)
