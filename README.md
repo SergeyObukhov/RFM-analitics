@@ -4,7 +4,7 @@
 
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#описание-проекта)  
+[1. Описание проекта](https://github.com/SergeyObukhov/RFM-analitics#описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#какой-кейс-решаем)  
 [3. Краткая информация о данных](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#краткая-информация-о-данных)   
 [4. Результаты](https://github.com/SergeyObukhov/sf_data_science/tree/main/projekt_0#результаты)  
